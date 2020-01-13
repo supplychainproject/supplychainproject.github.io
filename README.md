@@ -1,7 +1,7 @@
 # Supply Chain Project
 The Supply Chain Project is an open source community providing tools and standards for managing artifacts across supply chains.
 
-![Supply Chain Project Overview](images/SupplyChainProjectOverview.png)
+![Supply Chain Project Overview](SupplyChainProjectOverview.png)
 
 # Concepts
 
@@ -9,7 +9,7 @@ The Supply Chain Project is an open source community providing tools and standar
 
 A supply chain is a system of organizations, people, activities, information, and resources involved in managing artifacts across producers and consumers.
 
-![Supply Chain Project Concepts](images/SupplyChainProjectConcepts.png)
+![Supply Chain Project Concepts](SupplyChainProjectConcepts.png)
 
 ## Artifacts and Metadata
 Artifacts are materials, products and certifications in a supply chain. Examples of artifacts include the following:
