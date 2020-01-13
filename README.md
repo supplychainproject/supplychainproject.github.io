@@ -16,7 +16,7 @@ Artifacts are materials, products and certifications in a supply chain. Examples
 
 * Digital goods, e.g. software
 * Physical goods, e.g. hardware and devices
-* Certifications, e.g. documents or data attesting to the qualities of an artifact
+* Certifications, e.g. documents or data attesting to the attributes of an artifact
 
 Metadata is information that allows artifacts to be verified and managed.
 
