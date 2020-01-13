@@ -36,7 +36,7 @@ Artifact and metadata stores manage storage, query and distribution of artifacts
 *   Software metadata providers (e.g.[Software Heritage metadata](https://www.softwareheritage.org/2019/05/28/mining-software-metadata-for-80-m-projects-and-even-more/), [Clearly Defined](https://clearlydefined.io/), [Go checksum database](https://go.googlesource.com/proposal/+/master/design/25530-sumdb.md))
 *   Installed package databases (e.g. RPMDB)
 
-The Supply Chain Project provides a certification program for artifact and metadata stores who implement Supply Chain Project artifact and metadata exchange specifications.
+The Supply Chain Project provides a certification program for artifact and metadata stores to implement Supply Chain Project artifact and metadata exchange specifications.
 
 ## Policy
 
@@ -50,7 +50,6 @@ Policy describes requirements for artifact consumption, including the following:
 *   Expected order of steps in the chain (e.g. to prevent man in the middle attacks)
 
 Examples of policy specifications today:
-
 
 
 *   In-toto sub-layout
