@@ -3,7 +3,7 @@ The Supply Chain Project is an open source community providing tools and standar
 
 ![Supply Chain Project Overview](SupplyChainProjectOverview.png)
 
-# Concepts
+# Supply Chain Concepts
 
 ## Supply Chains
 
