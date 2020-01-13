@@ -42,15 +42,11 @@ The Supply Chain Project provides a certification program for artifact and metad
 
 Policy describes requirements for artifact consumption, including the following:
 
-*   Allowed producers
-*   Allowed licenses
-*   Allowed build environments and configurations
-*   Required security steps (e.g. scanning)
-*   Required certifications (e.g. SDL, industry audits)
+*   Allowed identities, producers, materials, creation environments and licenses.
+*   Required certifications (e.g. quality, security, integrity)
 *   Expected order of steps in the chain (e.g. to prevent man in the middle attacks)
 
 Examples of policy specifications today:
-
 
 *   In-toto sub-layout
 *   [Kritis](https://github.com/grafeas/kritis) policy specification for Kubernetes applications
