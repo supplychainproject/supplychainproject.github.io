@@ -1,7 +1,7 @@
 # Supply Chain Project 
 The Supply Chain Project is an open source community providing standards and tools for managing products and services across supply chains. The goal is to allow supply chain participants in a supply chain to produce and consume quality (timely, reliable, tamper-free, authentic, secure, certified and licensed) products and services.
 
-![Supply Chain Project Overview](images/SupplyChainProjectOverview.png)
+![Supply Chain Project Overview](SupplyChainProjectOverview.png)
 
 # Concepts
 
@@ -9,7 +9,7 @@ The Supply Chain Project is an open source community providing standards and too
 
 A supply chain is a sequence of links in which producers provide artifacts and metadata to consumers.
 
-![Supply Chain Project Concepts](images/SupplyChainProjectConcepts.png)
+![Supply Chain Project Concepts](SupplyChainProjectConcepts.png)
 
 ## Artifacts and Metadata
 Artifacts are items passed from producers to consumers along the supply chain. Examples include the following:
