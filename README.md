@@ -1,22 +1,24 @@
-# Supply Chain Project
-The Supply Chain Project is an open source community providing tools and standards for managing artifacts across supply chains.
+# Supply Chain Project 
+The Supply Chain Project is an open source community providing standards and tools for managing products and services across supply chains. The goal is to allow supply chain participants in a supply chain to produce and consume quality (timely, reliable, tamper-free, authentic, secure, certified and licensed) products and services.
 
-![Supply Chain Project Overview](SupplyChainProjectOverview.png)
+![Supply Chain Project Overview](images/SupplyChainProjectOverview.png)
 
-# Supply Chain Concepts
+# Concepts
 
-A supply chain is a system of organizations, people, activities, information, and resources involved in managing artifacts across producers and consumers.
+## Supply Chain
 
-![Supply Chain Project Concepts](SupplyChainProjectConcepts.png)
+A supply chain is a sequence of links in which producers provide artifacts and metadata to consumers.
+
+![Supply Chain Project Concepts](images/SupplyChainProjectConcepts.png)
 
 ## Artifacts and Metadata
-Artifacts are materials, products and certifications in a supply chain. Examples of artifacts include the following:
+Artifacts are items passed from producers to consumers along the supply chain. Examples include the following:
 
 * Digital goods, e.g. software
 * Physical goods, e.g. hardware and devices
-* Certifications, e.g. documents or data attesting to the attributes of an artifact
+* Certifications, e.g. documents attesting to attributes (reliability, integrity, authenticity, security, license, etc.) of a product or service.
 
-Metadata is information that allows artifacts to be verified and managed.
+Metadata is information about artifacts that allows artifacts to be verified and managed.
 
 * Identity - a name, producer, version, and unique identifier for an artifact.
 * Authenticity - a cryptographic signature for the producer of an artifact.
@@ -25,37 +27,29 @@ Metadata is information that allows artifacts to be verified and managed.
 * License - information that identifies how an artifact can be used.
 * Integrity - information that allows verifying that a received artifact is free from tampering during transmission.
 
-The Supply Chain Project defines a specification for the exchange of artifacts and metadata between producers and consumers.
+The Supply Chain Quality project defines a specification for the exchange of artifacts and metadata between producers and consumers.
 
 ## Artifact and Metadata Stores
 
-Artifact and metadata stores manage storage, query and distribution of artifacts and metadata. Examples of artifact and metadata stores include the following:
+Artifact and metadata stores allow query and distribution of artifacts. Examples of artifact and metadata stores include the following:
 
 *   Source code repositories
 *   Application, container, package and artifact stores, registries and repositories
 *   Software metadata providers (e.g.[Software Heritage metadata](https://www.softwareheritage.org/2019/05/28/mining-software-metadata-for-80-m-projects-and-even-more/), [Clearly Defined](https://clearlydefined.io/), [Go checksum database](https://go.googlesource.com/proposal/+/master/design/25530-sumdb.md))
 *   Installed package databases (e.g. RPMDB)
 
-The Supply Chain Project provides a certification program for artifact and metadata stores to implement Supply Chain Project artifact and metadata exchange specifications.
+The Supply Chain Project provides a certification program for artifact and metadata stores implementing the Supply Chain Quality artifact and metadata exchange specifications.
 
 ## Policy
 
 Policy describes requirements for artifact consumption, including the following:
 
-*   Allowed identities, producers, materials, creation environments and licenses.
-*   Required certifications (e.g. quality, security, integrity)
+*   Allowed producers
+*   Allowed licenses
+*   Allowed build environments and configurations
+*   Required security steps (e.g. scanning)
+*   Required certifications (e.g. SDL, industry audits)
 *   Expected order of steps in the chain (e.g. to prevent man in the middle attacks)
-
-Examples of policy specifications today:
-
-*   In-toto sub-layout
-*   [Kritis](https://github.com/grafeas/kritis) policy specification for Kubernetes applications
-
-Examples of policy implementations today:
-
-*   [Rego](https://www.openpolicyagent.org/docs/latest/policy-language/) (part of Open Policy Agent - OPA)
-*   Kritis [reference implementation](https://github.com/grafeas/kritis/blob/master/docs/install.md) (against Google Cloud Container Analysis API)
-*   Linux build system (internal policies)
 
 
 ## Artifact Clients
@@ -77,11 +71,3 @@ Artifact clients query metadata stores to receive information such as the follow
 *   Build/build environment verification (e.g. reproducible build)
 *   Required steps verification
 *   Required certification verification
-
-Examples of metadata client implementations today
-
-*   [Open Policy Agent](https://www.openpolicyagent.org/docs/latest/) (OPA)
-*   [Grafeas client libraries](https://github.com/grafeas) - including [Kritis](https://www.bing.com/search?q=grafeas+kritis&PC=U531&cvid=e7f41d082a614612b1ffb6c22bf66ae2&FORM=ANNTA9) (admission controller)
-*   [In-toto](https://github.com/in-toto/in-toto) verify (admission controller)
-*   [The Update Framework](https://github.com/theupdateframework/specification/blob/master/tuf-spec.md) (TUF)-based clients
-    *  
