@@ -1,5 +1,5 @@
 # Supply Chain Project 
-The Supply Chain Project is an open source community providing standards and tools for managing products and services across supply chains. The goal is to allow supply chain participants in a supply chain to produce and consume quality (timely, reliable, tamper-free, authentic, secure, certified and licensed) products and services.
+The Supply Chain Project is an open source community providing standards and tools for managing products and services across supply chains. The goal is to allow participants to produce and consume quality (timely, reliable, tamper-free, authentic, secure, certified and licensed) products and services.
 
 ![Supply Chain Project Overview](SupplyChainProjectOverview.png)
 
@@ -16,7 +16,7 @@ Artifacts are items passed from producers to consumers along the supply chain. E
 
 * Digital goods, e.g. software
 * Physical goods, e.g. hardware and devices
-* Certifications, e.g. documents attesting to attributes (reliability, integrity, authenticity, security, license, etc.) of a product or service.
+* Certifications, e.g. documents that attest to attributes (reliability, integrity, authenticity, security, license, etc.) of other artifacts.
 
 Metadata is information about artifacts that allows artifacts to be verified and managed.
 
