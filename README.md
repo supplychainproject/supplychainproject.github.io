@@ -5,11 +5,12 @@ The Supply Chain Project is an open source community providing standards and too
 _Job to be Done: As a participant in a supply chain, I can produce and consume trustworthy products and services._
 
 # Scenarios
-The Supply Chain Project allows validating items in a supply chain. Items include physical goods, digital goods and certifications.
+The Supply Chain Project allows verifying items including physical goods, digital goods and certifications as follows:
 
-* Identity - the name, producer, version, and unique identifier for the item.
-* Materials - materials used in creating the item.
-* Creation - information about how the item was created.
+* Identity - the name, producer, version, and unique identifier for an item.
+* Relationships - relationships and dependencies between an item and other items.
+* Creation - information about how an item was created.
+* Validation - information about how an item was assessed and validated.
 * License - intellectual property requirements governing use of the item.
 * Integrity - information that allows verifying that the item has not been tampered with.
 
