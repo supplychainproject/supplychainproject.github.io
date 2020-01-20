@@ -1,4 +1,4 @@
-The Supply Chain Project is an open source community providing standards and tools producing and consuming trustworthy products.. The goal is to allow the delivery of products that are authentic, reliable, tamper-free, secure, certified and licensed.
+The Supply Chain Project is an open source community providing standards and tools for producing and consuming trustworthy products. The goal is to allow the delivery of products that are authentic, reliable, tamper-free, secure, certified and licensed.
 
 ![Supply Chain Project Overview](SupplyChainProjectOverview.png)
 
