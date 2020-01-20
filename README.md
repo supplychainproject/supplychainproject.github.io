@@ -33,12 +33,12 @@ The Supply Chain Project defines a specification for an artifact Bill of Materia
 
 Policy describes requirements for artifact verification:
 
-* Identity requirements (allowed/disallowed names, producers, versions, unique identifiers)
-* Integrity requirements (allowed/disallowed integrity verification models) 
-* Relationship requirements (allowed/disallowed artifact content, dependencies, etc.)
-* Creation environment requirements (allowed/disallowed creation environments)
-* Assurance requiremets (allowed/disallowed certifications)
-* License requirements (allowed/disallowed licenses)
+* Identity - allowed/disallowed names, producers, versions, unique identifiers.
+* Integrity - allowed/disallowed integrity verification models.
+* Relationship - allowed/disallowed artifact content, dependencies, etc.
+* Creation - allowed/disallowed creation environments.
+* Assurance - allowed/disallowed certifications.
+* License - allowed/disallowed licenses.
 
 The Supply Chain Project defines a specification for defining artifact policy.
 
