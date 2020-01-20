@@ -1,24 +1,12 @@
-The Supply Chain Project is an open source community providing standards and tools for verifying items in a supply chain. The goal is to allow the delivery of products and services that are authentic, reliable, tamper-free, secure, certified and licensed.
+The Supply Chain Project is an open source community providing standards and tools for verifying supply chains. The goal is to allow the delivery of products and services that are authentic, reliable, tamper-free, secure, certified and licensed.
 
 ![Supply Chain Project Overview](SupplyChainProjectOverview.png)
 
 _Job to be Done: As a participant in a supply chain, I can produce and consume trustworthy products and services._
 
-# Scenarios
-The Supply Chain Project allows verifying items including physical goods, digital goods and certifications as follows:
-
-* Identity - the name, producer, version, and unique identifier for an item.
-* Relationships - relationships and dependencies between an item and other items.
-* Creation - information about how an item was created.
-* Validation - information about how an item was assessed and validated.
-* License - intellectual property requirements governing use of the item.
-* Integrity - information that allows verifying that the item has not been tampered with.
-
-# Concepts
-
 ## Supply Chain
 
-A supply chain is a sequence of links in which producers provide artifacts and metadata to consumers.
+A supply chain is a sequence of links in which producers provide items (_artifacts_), and information (in the form of _bills of materials_) to consumers. Consumers receive _artifacts_, and use information from _bills of materials_ to verify against _policy_.
 
 ![Supply Chain Project Concepts](SupplyChainProjectConcepts.png)
 
@@ -28,6 +16,16 @@ The items produced and consumed in a supply chain are known as artifacts. Artifa
 * Digital goods, e.g. software
 * Physical goods, e.g. hardware and devices
 * Certifications, e.g. documents that attest to attributes (reliability, integrity, authenticity, security, license, etc.) of other artifacts.
+
+## Metadata
+The Supply Chain Project allows verifying items including physical goods, digital goods and certifications as follows:
+
+* Identity - the name, producer, version, and unique identifier for an item.
+* Relationships - relationships and dependencies between an item and other items.
+* Creation - information about how an item was created.
+* Validation - information about how an item was assessed and validated.
+* License - intellectual property requirements governing use of the item.
+* Integrity - information that allows verifying that the item has not been tampered with.
 
 Metadata is information about artifacts that allows artifacts to be verified and managed.
 
