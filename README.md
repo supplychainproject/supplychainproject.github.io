@@ -1,7 +1,15 @@
-# Supply Chain Project 
-The Supply Chain Project is an open source community providing standards and tools for managing products across supply chains. The goal is to allow participants to produce and consume products that are timely, reliable, tamper-free, authentic, secure, certified and licensed.
+The Supply Chain Project is an open source community providing standards and tools for managing supply chain compliance. The goal is to allow participants to produce and consume products that are timely, reliable, tamper-free, authentic, secure, certified and licensed.
 
 ![Supply Chain Project Overview](SupplyChainProjectOverview.png)
+
+
+# Scenarios
+* Identity - a name, producer, version, and unique identifier for an artifact.
+* Authenticity - a cryptographic signature for the producer of an artifact.
+* Materials - a listing of other artifacts used in the creation of an artifact.
+* Creation - information about the process followed for creating an artifact.
+* License - information that identifies how an artifact can be used.
+* Integrity - information that allows verifying that a received artifact is free from tampering during transmission.
 
 # Concepts
 
