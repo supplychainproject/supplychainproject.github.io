@@ -1,4 +1,4 @@
-The Supply Chain Project is an open source community providing standards and tools for producing trustworthy products. The goal is to allow the delivery of products that are authentic, reliable, tamper-free, certified and licensed.
+The Supply Chain Project is an open source community that provides standards and tools for producing trustworthy products. The goal is to support the delivery of products that are authentic, reliable, tamper-free, certified and licensed.
 
 ![Supply Chain Project Overview](SupplyChainProjectOverview.png)
 
@@ -6,19 +6,19 @@ _Job to be Done: As a participant in a supply chain, I can produce and consume t
 
 ## Supply Chain
 
-A supply chain is a sequence of links in which _producers_ provide items (_artifacts_), and information (_bills of materials_) and _consumers_ use bills of materials to receive artifacts and _verify_ against _policies_.
+A supply chain is a sequence of links in which _producers_ provide items (_artifacts_), and information (_bills of materials_) and _consumers_ use bills of materials to receive and _verify_ artifacts against _policies_.
 
 ![Supply Chain Project Concepts](SupplyChainProjectConcepts.png)
 
-## Artifacts and Metadata
-The items produced and consumed in a supply chain are known as artifacts. Artifacts include physical goods, digital goods and certifications. Artifacts are items passed from producers to consumers along the supply chain. Examples include the following:
+## Artifacts
+Artifacts are items produced and consumed in a supply chain including physical goods, digital goods and certifications:
 
 * Digital goods, e.g. software
 * Physical goods, e.g. hardware and devices
 * Certifications, e.g. documents that attest to attributes (reliability, integrity, authenticity, security, license, etc.) of other artifacts.
 
-## Metadata
-The Supply Chain Project allows verifying items including physical goods, digital goods and certifications as follows:
+## Bills of Materials
+Bills of Materials provide information that allows artifacts to be verified and managed.
 
 * Identity - the name, producer, version, and unique identifier for an item.
 * Relationships - relationships and dependencies between an item and other items.
@@ -27,15 +27,15 @@ The Supply Chain Project allows verifying items including physical goods, digita
 * License - intellectual property requirements governing use of the item.
 * Integrity - information that allows verifying that the item has not been tampered with.
 
-Metadata is information about artifacts that allows artifacts to be verified and managed.
+Bills of Materials provide information that allows artifacts to be verified and managed.
 
 * Identity - a name, producer, version, and unique identifier for an artifact.
-* Authenticity - a cryptographic signature for the producer of an artifact.
 * Materials - a listing of other artifacts used in the creation of an artifact.
 * Creation - information about the process followed for creating an artifact.
 * License - information that identifies how an artifact can be used.
 * Integrity - information that allows verifying that a received artifact is free from tampering during transmission.
 
+Bills of Materials are cryptographically signed for the producer of an artifact.
 The Supply Chain Quality project defines a specification for the exchange of artifacts and metadata between producers and consumers.
 
 ## Artifact and Metadata Stores
