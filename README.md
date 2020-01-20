@@ -21,13 +21,13 @@ Artifacts are items produced and consumed in a supply chain:
 Bills of Materials provide information about artifacts that allow them to be received and verified:
 
 * Identity - name, producer, version, and a unique identifier for the artifact.
-* Integrity - information that allows verifying the artifact is free from tampering.
+* Integrity - information that allows verifying that the artifact is free from tampering.
 * Relationships - a listing of relationships for the artifact, including contents and dependencies.
 * Creation - information about how the artifact was created.
 * Assurance - information about how the artifact was assessed and validated.
 * License - intellectual property requirements governing use of the artifact.
 
-The Supply Chain Project defines a specification for an artifact bill of materials.
+The Supply Chain Project defines a specification for an artifact Bill of Materials.
 
 ## Policy
 
