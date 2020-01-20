@@ -11,7 +11,7 @@ A supply chain is a sequence of links in which _producers_ provide items (_artif
 ![Supply Chain Project Concepts](SupplyChainProjectConcepts.png)
 
 ## Artifacts
-Artifacts are items produced and consumed in a supply chain:
+Artifacts are the items produced and consumed in a supply chain:
 
 * Physical goods including hardware and devices.
 * Digital goods including software, firmware and cloud-based services.
