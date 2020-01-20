@@ -18,7 +18,7 @@ Artifacts are the items produced and consumed in a supply chain:
 * Documents attesting to the reliability, integrity, authenticity, security, license and other attributes of artifacts.
 
 ## Bills of Materials
-Bills of Materials provide information about artifacts that allow them to be received and verified:
+Bills of Materials provide information about artifacts that allow artifacts to be received and verified:
 
 * Identity - name, producer, version, and a unique identifier for the artifact.
 * Integrity - information that allows verifying that the artifact is free from tampering.
@@ -31,7 +31,7 @@ The Supply Chain Project defines a specification for an artifact Bill of Materia
 
 ## Policy
 
-Policy describes requirements for artifact consumption:
+Policy describes requirements for artifact verification:
 
 * Identity requirements (allowed/disallowed names, producers, versions, unique identifiers)
 * Integrity requirements (allowed/disallowed integrity verification models) 
