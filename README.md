@@ -1,19 +1,17 @@
-The Supply Chain Project is an open source community providing standards and tools for verifying artifacts in a supply chain. The goal is to allow the delivery of products and services that are authentic, reliable, tamper-free, secure, certified and licensed.
+The Supply Chain Project is an open source community providing standards and tools for verifying items in a supply chain. The goal is to allow the delivery of products and services that are authentic, reliable, tamper-free, secure, certified and licensed.
 
 ![Supply Chain Project Overview](SupplyChainProjectOverview.png)
 
 _Job to be Done: As a participant in a supply chain, I can produce and consume trustworthy products and services._
 
 # Scenarios
-Artifacts are items produced and consumed in a supply chain. Artifacts include physical goods, digital goods and certifications.
+The Supply Chain Project allows validating items in a supply chain. Items include physical goods, digital goods and certifications.
 
-The Supply Chain Project allows validating these aspects of any artifact along the supply chain.
-
-* Identity - the name, producer, version, and unique identifier for the artifact.
-* Materials - the materials used in creating the artifact.
-* Creation - information about the process followed for creating the artifact.
-* License - intellectual property requirements governing use of the artifact.
-* Integrity - information that allows verifying that the artifact has not been tampered with.
+* Identity - the name, producer, version, and unique identifier for the item.
+* Materials - materials used in creating the item.
+* Creation - information about how the item was created.
+* License - intellectual property requirements governing use of the item.
+* Integrity - information that allows verifying that the item has not been tampered with.
 
 # Concepts
 
@@ -24,7 +22,7 @@ A supply chain is a sequence of links in which producers provide artifacts and m
 ![Supply Chain Project Concepts](SupplyChainProjectConcepts.png)
 
 ## Artifacts and Metadata
-Artifacts are items passed from producers to consumers along the supply chain. Examples include the following:
+The items produced and consumed in a supply chain are known as artifacts. Artifacts include physical goods, digital goods and certifications. Artifacts are items passed from producers to consumers along the supply chain. Examples include the following:
 
 * Digital goods, e.g. software
 * Physical goods, e.g. hardware and devices
