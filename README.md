@@ -1,4 +1,4 @@
-The Supply Chain Project is an open source community that provides standards and tools for producing trustworthy products. The goal is to support the delivery of products that are authentic, reliable, tamper-free, certified and licensed.
+The Supply Chain Project is an open source community providing standards and tools for producing trustworthy products. The goal is to support the delivery of products that are authentic, reliable, tamper-free, certified and licensed.
 
 ![Supply Chain Project Overview](SupplyChainProjectOverview.png)
 
@@ -6,48 +6,28 @@ _Job to be Done: As a participant in a supply chain, I can produce and consume t
 
 ## Supply Chain
 
-A supply chain is a sequence of links in which _producers_ provide items (_artifacts_), and information (_bills of materials_) and _consumers_ use bills of materials to receive and _verify_ artifacts against _policies_.
+A supply chain is a sequence of links in which _producers_ provide items (_artifacts_), and information (_bills of materials_) to _consumers_ who then receive and _verify_.
 
 ![Supply Chain Project Concepts](SupplyChainProjectConcepts.png)
 
 ## Artifacts
-Artifacts are items produced and consumed in a supply chain including physical goods, digital goods and certifications:
+Artifacts are items produced and consumed in a supply chain:
 
-* Digital goods, e.g. software
-* Physical goods, e.g. hardware and devices
-* Certifications, e.g. documents that attest to attributes (reliability, integrity, authenticity, security, license, etc.) of other artifacts.
+* Physical goods including hardware and devices
+* Digital goods including software, firmware and cloud-based services
+* Certifications attesting to artifact reliability, integrity, authenticity, security and license.
 
 ## Bills of Materials
-Bills of Materials provide information that allows artifacts to be verified and managed.
+Bills of Materials provide information about artifacts that allows artifacts to be received and verified.
 
-* Identity - the name, producer, version, and unique identifier for an item.
-* Relationships - relationships and dependencies between an item and other items.
-* Creation - information about how an item was created.
-* Validation - information about how an item was assessed and validated.
-* License - intellectual property requirements governing use of the item.
-* Integrity - information that allows verifying that the item has not been tampered with.
+* Identity - the name, producer, version, and unique identifier for the artifact.
+* Integrity - information that allows verifying that the artifact is free from tampering.
+* Relationships - a listing of relationships including contents and dependencies between this artifact and others.
+* Creation - information about how the artifact was created.
+* Assurance - information about how the item was assessed and validated.
+* License - intellectual property requirements governing use of the artifact.
 
-Bills of Materials provide information that allows artifacts to be verified and managed.
-
-* Identity - a name, producer, version, and unique identifier for an artifact.
-* Materials - a listing of other artifacts used in the creation of an artifact.
-* Creation - information about the process followed for creating an artifact.
-* License - information that identifies how an artifact can be used.
-* Integrity - information that allows verifying that a received artifact is free from tampering during transmission.
-
-Bills of Materials are cryptographically signed for the producer of an artifact.
-The Supply Chain Quality project defines a specification for the exchange of artifacts and metadata between producers and consumers.
-
-## Artifact and Metadata Stores
-
-Artifact and metadata stores allow query and distribution of artifacts. Examples of artifact and metadata stores include the following:
-
-*   Source code repositories
-*   Application, container, package and artifact stores, registries and repositories
-*   Software metadata providers (e.g.[Software Heritage metadata](https://www.softwareheritage.org/2019/05/28/mining-software-metadata-for-80-m-projects-and-even-more/), [Clearly Defined](https://clearlydefined.io/), [Go checksum database](https://go.googlesource.com/proposal/+/master/design/25530-sumdb.md))
-*   Installed package databases (e.g. RPMDB)
-
-The Supply Chain Project provides a certification program for artifact and metadata stores implementing the Supply Chain Quality artifact and metadata exchange specifications.
+The Supply Chain Quality project defines a specification for the exchange of artifacts and bills of materials between producers and consumers.
 
 ## Policy
 
@@ -60,8 +40,7 @@ Policy describes requirements for artifact consumption, including the following:
 *   Required certifications (e.g. SDL, industry audits)
 *   Expected order of steps in the chain (e.g. to prevent man in the middle attacks)
 
-
-## Artifact Clients
+## Verification
 
 Artifact clients query metadata stores to receive and process metadata. They may also obtain and inspect artifacts and enforce policy.
 
