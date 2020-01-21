@@ -6,7 +6,7 @@ _Job to be Done: As a participant in a supply chain, I can produce and consume t
 
 ## Supply Chain
 
-A supply chain is a sequence of links in which _Producers_ provide _Artifacts_ and _Bills of Materials_ to _Consumers_ - and _Artifact Repositories_, _Policies_ and _Clients_ assist with transfer, receipt and verification.
+A supply chain is a sequence of links in which _Producers_ provide _Artifacts_ and _Bills of Materials_ to _Consumers_. _Artifact Repositories_, _Policies_ and _Clients_ assist with transfer, receipt and verification.
 
 ![Supply Chain Project Concepts](SupplyChainProjectConcepts.png)
 
@@ -18,7 +18,7 @@ Artifacts are items produced and consumed in a supply chain. Artifacts include t
 * Documents attesting to the reliability, integrity, authenticity, security, license and other attributes of artifacts.
 
 ## Bills of Materials
-Bills of Materials provide information about artifacts that allow artifacts to be received and verified. Bills of Materials include the following information:
+Bills of Materials provide information about Artifacts that allow Artifacts to be received and verified. Bills of Materials include the following information:
 
 * Identity - name, producer, version, and a unique identifier for an artifact.
 * Integrity - information that allows verifying that an artifact is free from tampering.
@@ -28,6 +28,9 @@ Bills of Materials provide information about artifacts that allow artifacts to b
 * License - intellectual property requirements governing use of an artifact.
 
 The Supply Chain Project defines a specification for an artifact Bill of Materials.
+
+## Repositories
+Repositories allow requesting and receiving Artifacts and Bills of Materials.
 
 ## Policy
 
