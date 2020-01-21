@@ -1,4 +1,4 @@
-The Supply Chain Project is an open source community providing standards and tools for certifying and verifying that products are authentic, reliable, tamper-free and licensed.
+The Supply Chain Project is an open source community providing standards and tools delivering products that are authentic, reliable, tamper-free, certified and licensed.
 
 ![Supply Chain Project Overview](SupplyChainProjectOverview.png)
 
@@ -6,7 +6,7 @@ _Job to be Done: As a participant in a supply chain, I can produce and consume t
 
 ### Supply Chain
 
-A supply chain is a sequence of links in which _producers_ provide items (_artifacts_) and information (_bills of materials_) to _consumers_. _Artifact repositories_, _policies_ and _clients_ assist with transfer, receipt and verification.
+A supply chain is a sequence of links in which _producers_ provide items (_artifacts_) and information (_bills of materials_) to _consumers_. Artifact repositories, policies and clients assist with transfer, receipt and verification.
 
 ![Supply Chain Project Concepts](SupplyChainProjectConcepts.png)
 
@@ -18,7 +18,7 @@ Artifacts are items produced and consumed in a supply chain. Artifacts include t
 * Documents attesting to the reliability, integrity, authenticity, security, license and other attributes of artifacts.
 
 ### Bills of Materials
-Bills of materials provide information about artifacts that allow artifacts to be received and verified. Bills of materials include the following information:
+Bills of materials provide information about artifacts that allow artifacts to be verified. Bills of materials include the following information:
 
 * Identity - name, producer, version, and a unique identifier for an artifact.
 * Integrity - information that allows verifying that an artifact is free from tampering.
