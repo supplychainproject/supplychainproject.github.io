@@ -6,7 +6,7 @@ _Job to be Done: As a participant in a supply chain, I can produce and consume t
 
 ## Supply Chain
 
-A supply chain is a sequence of links in which _Producers_ provide _Artifacts_ and _Bills of Materials_ to _Consumers_. _Artifact Repositories_, _Policies_ and _Clients_ assist with transfer, receipt and verification.
+A supply chain is a sequence of links in which _producers_ provide _artifacts_ and _bills of baterials_ to _consumers_. _artifact repositories_, _policies_ and _clients_ assist with transfer, receipt and verification.
 
 ![Supply Chain Project Concepts](SupplyChainProjectConcepts.png)
 
