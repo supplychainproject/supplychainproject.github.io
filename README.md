@@ -1,12 +1,12 @@
-The Supply Chain Project is an open source community providing standards and tools for delivering trustworthy artifacts that are authentic, reliable, tamper-free, certified and licensed.
+The Supply Chain Project is an open source community providing standards and tools for delivering trustworthy products that are authentic, reliable, tamper-free, certified and licensed.
 
 ![Supply Chain Project Overview](SupplyChainProjectOverview.png)
 
-_Job to be Done: As a participant in a supply chain, I can produce and consume trustworthy artifacts._
+_Job to be Done: As a participant in a supply chain, I can produce and consume trustworthy products._
 
 ### Supply Chain
 
-A supply chain is a sequence of links in which _producers_ provide _artifacts_ and _bills of materials_ to _consumers_. _Artifact repositories_, _policies_ and _clients_ assist with transfer, receipt and verification.
+A supply chain is a sequence of links in which _producers_ provide items (_artifacts_) and information (_bills of materials_) to _consumers_. _Artifact repositories_, _policies_ and _clients_ assist with transfer, receipt and verification.
 
 ![Supply Chain Project Concepts](SupplyChainProjectConcepts.png)
 
