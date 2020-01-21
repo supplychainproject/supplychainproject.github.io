@@ -39,7 +39,7 @@ The Supply Chain Project defines a specification for repositories to respond to 
 Policy describes requirements for artifact verification. Policy describes the following:
 
 * Identity - allowed/disallowed names, producers, versions, unique identifiers.
-* Integrity - allowed/disallowed integrity verification models.
+* Integrity - allowed/disallowed models for verifying that an artifact is free from tampering.
 * Relationship - allowed/disallowed artifact content, dependencies, etc.
 * Creation - allowed/disallowed creation environments.
 * Assurance - allowed/disallowed certifications.
