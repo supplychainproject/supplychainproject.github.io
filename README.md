@@ -55,4 +55,4 @@ Consumers receive and verify artifacts. Specifically, consumers complete the fol
 * Request bills of materials
 * Verify artifacts against policy
 
-The Supply Chain Project defines a specification for requesting artifacts, reqesting bills of materials, and verifying artifacts against policy.
+The Supply Chain Project defines a specification for requesting artifacts and bills of materials, and for verifying artifacts against policy.
