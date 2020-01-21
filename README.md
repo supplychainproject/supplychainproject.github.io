@@ -6,7 +6,7 @@ _Job to be Done: As a participant in a supply chain, I can produce and consume t
 
 ## Supply Chain
 
-A supply chain is a sequence of links in which _producers_ provide _artifacts_ and _bills of materials_ to _consumers_. _artifact repositories_, _policies_ and _clients_ assist with transfer, receipt and verification.
+A supply chain is a sequence of links in which _producers_ provide _artifacts_ and _bills of materials_ to _consumers_. _Artifact repositories_, _policies_ and _clients_ assist with transfer, receipt and verification.
 
 ![Supply Chain Project Concepts](SupplyChainProjectConcepts.png)
 
@@ -45,7 +45,7 @@ Policy describes requirements for artifact verification. Policy describes the fo
 
 The Supply Chain Project defines a specification for defining artifact policy.
 
-## Verification
+## Clients
 
 Consumers receive and verify artifacts. Specifically, consumers complete the following tasks:
 
