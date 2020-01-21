@@ -2,7 +2,7 @@ The Supply Chain Project is an open source community providing standards and too
 
 ![Supply Chain Project Overview](SupplyChainProjectOverview.png)
 
-_Job to be Done: As a participant in a supply chain, I can produce and consume trustworthy products._
+_Job to be Done: As a participant in a supply chain, I can produce and consume trustworthy artifacts._
 
 ### Supply Chain
 
